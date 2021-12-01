@@ -5,7 +5,7 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 2vw;
   font-size: 14px;
   font-family: "Inter", sans-serif !important;
   overflow-x: hidden;
@@ -27,6 +27,15 @@ header h4 {
 }
 header h1 {
   letter-spacing: -2.5px !important;
+}
+#social-life {
+  background: -webkit-linear-gradient(
+    323deg,
+    rgba(111, 181, 245, 0.77) 17.24%,
+    #f265dc 98.87%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 header h2 {
   font-weight: 400 !important;
