@@ -43,30 +43,40 @@
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><button type="button" class="btn btn-primary">
-                    <i class="far fa-clock"></i>Join Waitlist
-                  </button></a
-                >
+                <a class="nav-link" href="#">
+                  <button class="waitlist-btn">
+                    <i class="far fa-clock mx-2"></i>Join Waitlist
+                  </button>
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <div
-        class="
-          container
-          d-flex
-          flex-column
-          align-items-center
-          justify-content-center
-        "
+        class="container d-flex flex-column align-items-center justify-content-center"
       >
         <h1>Take charge of your <span id="social-life"> social life</span>.</h1>
-        <h2>Meet new people, make new friends, find love.</h2>
-        <h2>Personality first, looks later</h2>
-        <button type="button" class="btn btn-primary mb-2">
-          <i class="far fa-clock"></i>Join Waitlist
+        <h2>
+          Meet new <span style="color: #8a24ff">people</span>, make new
+          <span style="color: #06c1ff">friends</span>, find
+          <span style="color: #f54b94">love</span>.
+        </h2>
+        <h2
+          style="
+            background: -webkit-linear-gradient(
+              135deg,
+              #ffcc33 0%,
+              #e233ff 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          "
+        >
+          Personality first, looks later
+        </h2>
+        <button class="waitlist-btn">
+          <i class="far fa-clock mx-2"></i>Join Waitlist
         </button>
         <div>
           <iframe
@@ -77,21 +87,24 @@
             allowfullscreen
           ></iframe>
         </div>
-        <h4>For College Students ⚡ By College Students ⚡</h4>
+        <h4>For college students ⚡ By college students ⚡</h4>
       </div>
     </header>
-    <hr />
     <main class="container-fluid">
       <h1>It's simple</h1>
-      <div class="d-flex flex-column align-items-center justify-content-center">
+      <div
+        class="d-flex flex-column flex-md-row align-items-center justify-content-center"
+      >
         <img src="assets/screen1.png" class="ss py-3" />
-        <h2 class="text-center py-3">
-          Tell us about your interests and personality
-        </h2>
-        <p class="lead text-center py-3">
-          Select interests from going out to sports to food. And for love
-          compatibility, answer some deeper questions.
-        </p>
+        <div>
+          <h2 class="text-center py-3">
+            Tell us about your interests and personality
+          </h2>
+          <p class="lead text-center py-3">
+            Select interests from going out to sports to food. And for love
+            compatibility, answer some deeper questions.
+          </p>
+        </div>
       </div>
 
       <div class="d-flex flex-column align-items-center justify-content-center">
@@ -107,13 +120,7 @@
       </div>
 
       <div
-        class="
-          d-flex
-          flex-column
-          py-3
-          align-items-center
-          justify-content-center
-        "
+        class="d-flex flex-column py-3 align-items-center justify-content-center"
       >
         <img src="assets/screen3.png" class="ss py-3" />
         <h2 class="text-center">You decide to reveal or pass</h2>
@@ -123,11 +130,21 @@
           get unmatched without revealing any info about yourself or them
         </p>
       </div>
-      <h4>Say goodbye 👋 to loneliness and meaningless swiping</h4>
-      <h6>#NoMoreSwiping</h6>
+      <div id="bottom-text">
+        <h4>Say goodbye 👋 to loneliness and meaningless swiping</h4>
+        <h6
+          style="
+            background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          "
+        >
+          #NoMoreSwiping
+        </h6>
+      </div>
     </main>
-    <hr />
-    <footer>
+    <footer class="p-3">
+      <i class="fab fa-instagram"></i>
       <img src="assets/logo.png" />
       <h6>Copyright © 2021 Blind. All rights reserved.</h6>
     </footer>

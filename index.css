@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
 :root {
   --text-light: #6b6f76;
 }
@@ -47,8 +47,12 @@ header h2 {
 
 header h4 {
   color: var(--text-light);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 400 !important;
+  line-height: 1.4;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  border-bottom: solid 0.5px rgb(212, 212, 212);
 }
 .ss {
   width: 80vw;
@@ -65,5 +69,43 @@ main h2 {
   font-weight: 700;
 }
 
-main h5 {
+.waitlist-btn {
+  background-color: #5e5df0;
+  color: #ffffff;
+  box-shadow: 0 10px 20px -10px rgb(110, 121, 214);
+  border: none;
+  border-radius: 999px;
+  padding: 12px 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#bottom-text {
+  font-weight: 400 !important;
+  line-height: 1.4;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  border-bottom: solid 0.5px rgb(212, 212, 212);
+  text-align: center;
+}
+
+#bottom-text h6 {
+  font-size: 1.2rem;
+}
+
+#bottom-text h4 {
+  font-size: 1.7rem;
+
+  color: var(--text-light);
+  font-weight: 300;
+}
+footer {
+  color: rgb(65, 65, 65);
+}
+footer i {
+  font-size: 30px;
+}
+footer img {
+  width: 100px;
+  display: block;
 }
