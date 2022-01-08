@@ -11,7 +11,8 @@ body {
   overflow-x: hidden;
 }
 #logo {
-  height: 3rem;
+  width: 80px;
+  padding: 20px 0;
 }
 .navbar-light .navbar-toggler {
   border: 0;
@@ -107,6 +108,7 @@ footer i {
   font-size: 30px;
 }
 footer img {
-  width: 100px;
+  width: 70px;
+  margin: 10px 0;
   display: block;
 }

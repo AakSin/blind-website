@@ -1,0 +1,63 @@
+:root {
+  --text-light: #6b6f76;
+}
+#main-head {
+  font-weight: 700;
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2.5px;
+}
+#main-subhead {
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--text-light);
+}
+
+#gradient-box {
+  background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  text-align: center;
+  border-radius: 10px;
+}
+.container--waitlistapi {
+  margin: 0 auto;
+}
+
+#gradient-box h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#gradient-box p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+}
+h1 {
+  color: #383838;
+}
+.container--waitlistapi {
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.container--waitlistapi h1 {
+  padding-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.button--waitlistapi {
+  background-color: #8a24ff;
+}
+.statusTextContainer--waitlistapi {
+  color: #8a24ff;
+}
+.referralLinkField--text {
+  color: #8a24ff;
+}
+footer {
+  border-top: 0.5px solid rgb(212, 212, 212);
+}
