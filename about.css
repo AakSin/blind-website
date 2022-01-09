@@ -26,3 +26,7 @@ p {
     padding: 0 20vw;
   }
 }
+h5 a {
+  text-decoration: none;
+  color: var(--text-light);
+}
