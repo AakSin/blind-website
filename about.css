@@ -1,10 +1,6 @@
 :root {
   --text-light: #6b6f76;
 }
-html,
-body {
-  padding: 0;
-}
 
 h1 {
   font-weight: 700 !important;
@@ -19,9 +15,14 @@ p {
 #gradient-box {
   background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
 }
-.container {
-  padding: 0 10vw !important;
+.custom-container {
+  padding: 0 10vw;
 }
 #gradient-box h1 {
   font-size: 2.5rem;
+}
+@media (min-width: 992px) {
+  .custom-container {
+    padding: 0 20vw;
+  }
 }

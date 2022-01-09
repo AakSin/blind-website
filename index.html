@@ -12,6 +12,10 @@
     />
     <link href="index.css" rel="stylesheet" crossorigin="anonymous" />
     <title>Blind | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <header>
@@ -59,7 +63,7 @@
         class="container d-flex flex-column align-items-center justify-content-center"
       >
         <h1>Take charge of your <span id="social-life"> social life</span>.</h1>
-        <h2>
+        <h2 class="pb-1">
           Meet new <span style="color: #8a24ff">people</span>, make new
           <span style="color: #06c1ff">friends</span>, find
           <span style="color: #f54b94">love</span>.
@@ -78,18 +82,20 @@
           Personality first, looks later
         </h2>
         <a href="waitlist.html">
-          <button class="waitlist-btn mb-3">
+          <button class="waitlist-btn mb-5">
             <i class="far fa-clock mx-2"></i>Join Waitlist
           </button>
         </a>
-        <div>
-          <iframe
-            src="https://www.youtube.com/embed/M1l-qUtqxLk?controls=0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <div id="iframe-box">
+          <div id="iframe-container">
+            <iframe
+              src="https://www.youtube.com/embed/M1l-qUtqxLk?controls=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
         <h4>For college students ⚡ By college students ⚡</h4>
       </div>
