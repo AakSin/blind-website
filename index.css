@@ -101,7 +101,8 @@ main h2 {
   color: var(--text-light);
   font-weight: 300;
 }
-footer {
+footer,
+footer a {
   color: rgb(65, 65, 65);
 }
 footer i {
